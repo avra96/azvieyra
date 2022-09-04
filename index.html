@@ -1,50 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <link rel="stylesheet" href="./style.css">
+<title>AZ Vieyra Philosophy </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: big;
+  color: rgb(255, 255, 255);
+}
+h2 {color: aquamarine; 
+font-size: 50 px;
+font-style: oblique;
+text-shadow: 2px 2px rgb(94, 129, 134)
+;}
+
+p {font-size: 14px;}
+
+/* Style the side navigation */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+  color: rgb(148, 81, 140);
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
+}
+</style>
 </head>
 <body>
 
-<h1>Ana Z Vieyra</h1>
-<p>Philosophy</p>
-  
-<img src="6658578.jpg" alt="imagen" style="width:500px;height:600px;">
-  <section id="content">
-    <ul class="posts_listing">
-      
-       <div id="posts">
-          <div id="date" class="date-time-title">
-              <time>16/6/2022</time>
-          </div>
-          <div class="date-time-title post">
-            <a href="blog/brandomchitchat.html"> Some questions on brandom & rationalism </a>
-          </div>
-        </div>
-      
-        <div id="posts">
-          <div id="date" class="date-time-title">
-              <time>15/6/2022</time>
-          </div>
-          <div class="date-time-title post">
-            <a href="blog/attempt1.html"> what am I doing here </a>
-          </div>
-        </div>
-      
-        <div id="posts">
-          <div id="date" class="date-time-title">
-              <time>16/6/2022</time>
-          </div>
-          <div class="date-time-title post">
-            <a href="blog/blog2.html"> Another great Moore </a>
-          </div>
-        </div>
-         </div>
-        </div>
-      
-    </ul>
-  </section>
+<div class="sidenav">
+  <a href="#">Publications</a>
+  <a href="#">Brief cv</a>
+  <a href="#">Unpublished philosophy</a>
+  <a href="#">Other</a>
+  <a href="#">Contact</a>
+</div>
 
-    </body>
-</html>
+<div class="content">
+  <h2>Ana Z Vieyra</h2>
+  <p> Morelia, Mexico City (UNAM)
+   <br>
+    Atlanta (Emory University: 2019 -)
+    <br>
+    Berlin (FUB: 2022-2023)
+    <br>
+  <img src="https://66.media.tumblr.com/tumblr_maw6psZPRo1rfjowdo1_500.gif" style="width:50px;height:60px">
+  <p>Welcome to my personal website.
+    <br>
+    I am a philosophy doctoral student working on Hegel and German idealism.<br>
+    I also house and pet sit, among other things.
+  </p>
+</div>
+
 </body>
 </html>
